@@ -23,24 +23,11 @@ in [`changes.csv`](changes.csv)):
 * **Drift** — D1 Grand Prix and Formula Drift drivers.
 
 Names are matched to the career level where you first meet each driver, so
-reputations grow as you progress:
-
-* **Global** — the stars of 2007: Räikkönen, Alonso and Hamilton in open
-  wheel, Priaulx, Ekström and Schneider in touring cars, Whincup and Lowndes
-  in V8 Supercars, and the top D1 and Formula Drift names.
-* **Expert** — well-known names such as Sebastian Vettel, Juan Pablo Montoya
-  and Sébastien Bourdais.
-* **Pro** and **Rookie** — second-tier drivers and the prospects of 2007.
-  Where these levels have fast AI slots, they are filled by drivers who were
-  still lesser known then but became big names later, like Hülkenberg,
-  Grosjean, Pérez, Ricciardo and Bottas.
+reputations grow as you progress.
 
 Each driver keeps the skill rating, team and events of the slot they replace,
 so the game's balance is unchanged. Nationalities are updated to match. The
 level of every driver is listed in [`changes.csv`](changes.csv).
-
-The final boss, **Ravenwest**, is driven by **Michael Schumacher** and
-**Allan McNish**.
 
 In total the mod changes:
 
