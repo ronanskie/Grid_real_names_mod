@@ -1,8 +1,7 @@
-# Grid_real_names_mod
+# Race driver: Grid, Real drivers and teams mod
 
 A mod for **Race Driver: GRID** (Codemasters, 2008) that replaces the game's
-fictional AI drivers and teams with real drivers and teams from the 2006/2007
-racing era.
+fictional AI drivers and teams with real drivers and teams that were active around 2006/2007. 
 
 ---
 
@@ -65,8 +64,6 @@ folders can be copied straight into the game.
 * **changes.csv** — the full list of renamed drivers: database id, discipline,
   skill rating, old name, new name, nationality and team. Not needed to
   install the mod, just a reference.
-* **.gitattributes** — marks `.bin` and `.lng` as binary so Git never converts
-  line endings inside them (which would corrupt the files).
 
 The DLC language files (`language_xxx_dlc_0.lng`) are not part of the mod, so
 your own copies stay in place.
@@ -77,8 +74,7 @@ your own copies stay in place.
 
 ### Prerequisites
 
-The mod was made for the **Steam version** of Race Driver: GRID. Other versions
-may use a different database and are not supported.
+The mod was made for the **Steam version** of Race Driver: GRID, but should work for other versions as well.
 
 ### Installing
 
@@ -103,11 +99,6 @@ may use a different database and are not supported.
    `git clone`), then drag its `database` and `language` folders into the GRID
    installation folder. When Windows asks, choose **Replace the files in the
    destination**.
-
-4. **Start a new career:**
-
-   Existing career saves may still show some old names, so a new career is
-   the best way to see the full mod.
 
 ---
 
