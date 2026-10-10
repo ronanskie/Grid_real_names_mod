@@ -37,8 +37,8 @@ In total the mod changes:
 * **180 car liveries** renamed, so the team names in the team-selection menu
   match too.
 
-Real drivers and teams already in the game, the story rival **Ravenwest**,
-**Lumenition** and the **Various** legends team are left untouched. Car
+Real drivers and teams already in the game, **Ravenwest** and
+**Lumenition** are left untouched. Car
 liveries themselves (the paint jobs) are unchanged.
 
 The mod works in every language the game supports: English, US English,
