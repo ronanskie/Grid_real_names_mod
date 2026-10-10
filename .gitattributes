@@ -1,0 +1,3 @@
+# Game data files: never convert line endings or diff as text
+*.bin binary
+*.lng binary
