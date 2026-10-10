@@ -13,19 +13,34 @@ ones. This mod replaces the made-up ones, discipline by discipline, with
 drivers who were actually racing in that series around 2007 (the full list is
 in [`changes.csv`](changes.csv)):
 
-* **Open wheel** — F1, GP2, F3 and A1GP drivers (Räikkönen, Alonso, Hamilton at the top).
+* **Open wheel** — F1 stars at the top, then GP2, A1GP, F3 and junior-formula drivers.
 * **Touring cars** — WTCC, BTCC and DTM drivers.
-* **Stock cars** — NASCAR Cup drivers.
+* **Stock cars** — NASCAR Busch, Truck and ARCA drivers.
 * **GT1 / GT2 / Prestige / Club GT** — FIA GT, ALMS, Le Mans, British GT and Porsche Cup drivers.
 * **Prototypes** — Le Mans, ALMS and Grand-Am drivers.
 * **Pro Muscle** — V8 Supercars and US GT/Trans-Am drivers.
 * **Pro Tuned** — Super GT and Super Taikyu drivers.
 * **Drift** — D1 Grand Prix and Formula Drift drivers.
 
-Each driver keeps the skill rating of the slot they replace, and the best real
-drivers were matched to the highest-rated slots — so the strongest AI driver
-in open wheel is now Kimi Räikkönen, not "Jack Scott". Nationalities are
-updated to match.
+Names are matched to the career level where you first meet each driver, so
+reputations grow as you progress:
+
+* **Global** — the stars of 2007: Räikkönen, Alonso and Hamilton in open
+  wheel, Priaulx, Ekström and Schneider in touring cars, Whincup and Lowndes
+  in V8 Supercars, and the top D1 and Formula Drift names.
+* **Expert** — well-known names such as Sebastian Vettel, Juan Pablo Montoya
+  and Sébastien Bourdais.
+* **Pro** and **Rookie** — second-tier drivers and the prospects of 2007.
+  Where these levels have fast AI slots, they are filled by drivers who were
+  still lesser known then but became big names later, like Hülkenberg,
+  Grosjean, Pérez, Ricciardo and Bottas.
+
+Each driver keeps the skill rating, team and events of the slot they replace,
+so the game's balance is unchanged. Nationalities are updated to match. The
+level of every driver is listed in [`changes.csv`](changes.csv).
+
+The final boss, **Ravenwest**, is driven by **Michael Schumacher** and
+**Allan McNish**.
 
 In total the mod changes:
 
@@ -33,12 +48,14 @@ In total the mod changes:
 * **12 real GT drivers** whose names had been altered by the developers restored
   (e.g. "Peter Kovac" → Peter Kox, "Vincent Schifo" → Vincent Vosse).
 * **185 teams** renamed to real teams from the same series, chosen to fit their
-  drivers' ratings (e.g. Scuderia Ferrari, McLaren Mercedes, Triple Eight).
+  drivers' ratings (e.g. ART Grand Prix, iSport International, Triple Eight).
+  Open-wheel teams use GP2 and F3 team names, as F3 is the top open-wheel
+  series in the game.
 * **180 car liveries** renamed, so the team names in the team-selection menu
   match too.
 
-Real drivers and teams already in the game, **Ravenwest** and
-**Lumenition** are left untouched. Car
+Real drivers and teams already in the game are left untouched, and the
+**Ravenwest** and **Lumenition** team names are kept. Car
 liveries themselves (the paint jobs) are unchanged.
 
 The mod works in every language the game supports: English, US English,
@@ -62,7 +79,7 @@ folders can be copied straight into the game.
   * **`language_ita.lng`** — Italian.
   * **`language_spa.lng`** — Spanish.
 * **changes.csv** — the full list of renamed drivers: database id, discipline,
-  skill rating, old name, new name, nationality and team. Not needed to
+  career level, skill rating, original name, new name, nationality and team. Not needed to
   install the mod, just a reference.
 
 The DLC language files (`language_xxx_dlc_0.lng`) are not part of the mod, so
